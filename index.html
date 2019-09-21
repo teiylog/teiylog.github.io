@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>teiy寝ろ寝るな</title>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+
+	<div class="main_box">
+		<div id="app">
+			<a v-bind:href="url">@teiylog</a>
+			<p v-text="nero"></p>
+			<p v-text="neruna"></p>
+
+			<input type="button" value="寝ろ" v-on:click="onClickNero()" />
+			<input type="button" value="寝るな" v-on:click="onClickNeruna()" />
+		</div>
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
