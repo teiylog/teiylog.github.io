@@ -1,3 +1,6 @@
+// var NemuiDAO = require( 'NemuiDAO.js' );
+// var Nemui = new NemuiDAO();
+
 let app = new Vue({
 	el: '#app',
 	data: {
